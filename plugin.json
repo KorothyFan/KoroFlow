@@ -1,10 +1,10 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "koro-workflow",
-  "version": "0.7.4",
+  "version": "0.7.5",
   "description": "Reusable video workflow with quality gates, platform adapters, revision records, statistics and publishing handoffs.",
   "author": { "name": "KorothyFan" },
-  "repository": "https://github.com/KorothyFan/Koroflow",
+  "repository": "https://github.com/KorothyFan/KoroFlow",
   "keywords": ["video", "production", "operations", "publishing"],
   "extensions": {
     "com.openai": {

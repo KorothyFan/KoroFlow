@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 180" width="720" height="180" role="img" aria-label="KoroFlow Logo">
+  <defs>
+    <linearGradient id="kfIconGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D9488" />
+      <stop offset="100%" stop-color="#0F766E" />
+    </linearGradient>
+    <linearGradient id="kfAccentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0D9488" />
+      <stop offset="100%" stop-color="#14B8A6" />
+    </linearGradient>
+  </defs>
+
+  <!-- Pill card safe for both GitHub light & dark themes -->
+  <rect x="4" y="4" width="712" height="172" rx="24" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="2" />
+
+  <!-- Left geometric workflow + film-frame flow glyph -->
+  <rect x="34" y="34" width="112" height="112" rx="26" fill="url(#kfIconGrad)" />
+  <g transform="translate(34, 34)" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Left frame node -->
+    <rect x="20" y="24" width="26" height="24" rx="5" fill="#FFFFFF" fill-opacity="0.16" />
+    <!-- Top-right output node -->
+    <rect x="66" y="24" width="26" height="24" rx="5" />
+    <!-- Bottom-center play/check node -->
+    <rect x="43" y="66" width="26" height="24" rx="5" fill="#FFFFFF" fill-opacity="0.16" />
+    <polygon points="52,73 62,78 52,83" fill="#FFFFFF" stroke="none" />
+    <!-- Flow connectors -->
+    <path d="M 46 36 L 66 36" />
+    <path d="M 60 30 L 66 36 L 60 42" />
+    <path d="M 33 48 C 33 62, 33 78, 43 78" />
+    <path d="M 79 48 C 79 62, 79 78, 69 78" />
+  </g>
+
+  <!-- Wordmark -->
+  <text x="174" y="96" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="60" font-weight="800" letter-spacing="-1.5">
+    <tspan fill="#0F172A">Koro</tspan><tspan fill="url(#kfAccentGrad)">Flow</tspan>
+  </text>
+
+  <!-- Subtitle -->
+  <text x="176" y="132" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="18" font-weight="500" letter-spacing="0.2" fill="#64748B">
+    Reusable AIGC Video Production &amp; Operations Workflow
+  </text>
+</svg>

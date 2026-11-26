@@ -7,8 +7,8 @@ import { fileURLToPath } from 'node:url';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const destination = resolve(process.argv[2] || join(root, '..', 'hypit-haiyi-workflow.zip'));
-const entries = ['README.md', 'NOTICE.md', 'AGENTS.md', 'package.json', '.gitignore', '.gitattributes', '.env.example', 'upstream.json',
-  'plugin.json', '.agents/plugins/marketplace.json', 'docs/operations.md',
+const entries = ['README.md', 'NOTICE.md', 'LICENSE', 'AGENTS.md', 'package.json', '.gitignore', '.gitattributes', '.env.example', 'upstream.json',
+  'plugin.json', '.agents/plugins/marketplace.json', 'assets/koroflow-logo.svg', 'docs/operations.md',
   'scripts/operations.py', 'tests/test_operations.py', 'tests/test_distribution.py',
   'scripts/koroflow.py', 'tests/test_workflow.py', 'docs/architecture.md', 'docs/haiyi-hypit.md', 'CHANGELOG.md',
   'schemas/work.schema.json', 'schemas/adapter.schema.json',
