@@ -7,8 +7,8 @@ import { fileURLToPath } from 'node:url';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const destination = resolve(process.argv[2] || join(root, '..', 'hypit-haiyi-workflow.zip'));
-const entries = ['README.md', 'NOTICE.md', 'AGENTS.md', 'package.json', '.gitignore', '.gitattributes', '.env.example', 'upstream.json',
-  'plugin.json', '.agents/plugins/marketplace.json', 'docs/operations.md',
+const entries = ['README.md', 'NOTICE.md', 'LICENSE', 'AGENTS.md', 'package.json', '.gitignore', '.gitattributes', '.env.example', 'upstream.json',
+  'plugin.json', '.agents/plugins/marketplace.json', 'assets/koroflow-logo.svg', 'docs/operations.md',
   'scripts/operations.py', 'tests/test_operations.py', 'tests/test_distribution.py',
   'scripts/koroflow.py', 'tests/test_workflow.py', 'docs/architecture.md', 'docs/haiyi-hypit.md', 'CHANGELOG.md',
   'schemas/work.schema.json', 'schemas/adapter.schema.json',
@@ -16,6 +16,8 @@ const entries = ['README.md', 'NOTICE.md', 'AGENTS.md', 'package.json', '.gitign
   'skills/koroflow/references/defaults.json', 'skills/koroflow/references/adapters.md',
   'skills/koroflow/references/workflow.md', 'skills/koroflow/references/production-standard.md', 'skills/koroflow/scripts/workflow.py',
   'skills/koroflow/references/reference-production-runbook.md',
+  'skills/koroflow/references/production-review-experience.md',
+  'skills/koroflow/assets/templates/production-plan-review.html',
   'skills/koroflow/references/production-paths.md',
   'skills/koroflow/references/production-paths/source-video-edit.md',
   'skills/koroflow/references/production-paths/reference-rebuild.md',
